@@ -187,8 +187,10 @@ background-color: white;
 margin-bottom: 20px;
         }
 
-        .sezione3 {
-         height: 68vh;
+        .sezione3::after {
+         content: "";
+         display: table;
+         clear: both;
         }
 
         .riquadro_grande3 {
@@ -224,13 +226,22 @@ margin-bottom: 20px;
 .riquadro_grande4 > h1{
     font-size: 37px;
     color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
+.riquadro_grande4 > h4{
+    color: white;
+    padding-bottom: 20px;
+}
 .quadrato {
     width: 17vw;
     border: 1px solid white;
     display: inline-block;
-    margin: -2px;
+    
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-left: -4px;
 }
 
 .sinistra {
@@ -247,4 +258,22 @@ margin-bottom: 20px;
 
 .giù {
     border-bottom: none;
+}
+
+.sezione4_riquadro1 {
+    width: 10vw;
+}
+
+.sezione4_riquadro2 {
+    width: 45vw;
+}
+
+.sezione4_scritte1 {
+    height: 20px;
+    margin-left: 10px;
+}
+
+.sezione4_scritte2 {
+    height: 40px;
+    margin-left: 10px;
 }
