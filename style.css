@@ -188,7 +188,7 @@ margin-bottom: 20px;
         }
 
         .sezione3 {
-         height:100%
+         height: 68vh;
         }
 
         .riquadro_grande3 {
@@ -213,10 +213,38 @@ margin-bottom: 20px;
     display: inline-block;
 }
 .blue {
-    background-color: turquoise;
+    background-color: rgb(18, 175, 159);
+    padding-bottom: 10vh;
 }
 
 .riquadro_grande4 {
     width: 80vw;
     margin: auto;
+}
+.riquadro_grande4 > h1{
+    font-size: 37px;
+    color: white;
+}
+
+.quadrato {
+    width: 17vw;
+    border: 1px solid white;
+    display: inline-block;
+    margin: -2px;
+}
+
+.sinistra {
+    border-left: none;
+}
+
+.destra {
+    border-right: none;
+}
+
+.su {
+    border-top: none;
+}
+
+.giù {
+    border-bottom: none;
 }
