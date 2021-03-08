@@ -1,0 +1,222 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grigio {
+    background-color: rgb(253, 247, 247);
+}
+
+.larghezza_definita {
+   width: 80vw;
+   margin: auto;
+   padding-top: 20px;
+}
+
+
+.left {
+    float: left;
+    padding-top: 10px;
+    margin: auto;
+}
+
+.verticalLine {
+    border-left: 1px solid grey;
+    display: inline-block;
+  }
+
+.globo {
+    height: 16px;
+    display: inline-block;
+    vertical-align: text-top;
+}
+
+.white {
+    background-color: white;
+    color: orangered;
+    margin-right: 20px;
+}
+
+.riquadro {
+    display: inline-block;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid rgb(243, 103, 52);
+}
+
+.orange {
+    color: white;
+    background-color: rgb(243, 103, 52);
+}
+
+.right {
+    float: right;
+    padding-bottom: 20px;
+}
+
+.larghezza_definita::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.none {
+    border: none;
+    margin-left: 20px;
+}
+
+.dimensioni {
+    font-size: smaller;
+    padding-left: 10px;
+}
+
+
+ 
+.larghezza_definita3 {
+    width: 100vw;
+ }
+
+.prima_sezione {
+    background-image: url("img/jumbotron.png");
+    height: 87vh;
+    width: 100vw;
+}
+
+.riquadro_grande {
+    width: 40vw;
+}
+
+.riquadro_grande > h1 {
+ font-size: 50px;
+ padding-top: 20px;
+}
+
+p {
+    padding-top: 20px;
+}
+
+.riquadro2 {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+.piccolo {
+    font-size: 13px;
+    display: block;
+}
+
+.lightblue {
+ background-color: rgb(176, 240, 224);
+ height: 10vh;
+ border-top: 3px solid black;
+ border-bottom: 3px solid black;
+}
+
+.cubo {
+    height: 200px;
+    margin: auto;
+}
+
+.sezione2 {
+    margin: auto;
+    width: 50vw;
+}
+
+.centro {
+    text-align: center;
+}
+    
+.riquadro_grande2{
+    width: 80vw;
+    margin: auto;
+    position: relative;
+}
+.bianco {
+background-color: white;
+    }
+
+    .immagini {
+        height: 100px;
+        margin: auto;
+    }
+
+    .sezione2_parte1 {
+        width: 15vw;
+        margin-left: 200px;
+        margin-top: 50px;
+        display: inline-block;
+    }
+
+    .sezione2_parte2 {
+        display: inline-block;
+        width: 37vw;
+    }
+
+    .sezione2_parte2 > p {
+        padding-top: 20px;
+        margin-bottom: 20px;
+    }
+        .linea {
+            width: 25vw;
+            border: 1px solid gray;
+            position: absolute;
+            right: 10vw;
+            bottom: 15vh;
+        }
+
+        .checkmark {
+            color: white;
+            background-color: tomato;
+            padding-top: 1px;
+            padding-left: 3px;
+            padding-bottom: 1px;
+            padding-right: 3px;
+            border-radius: 10px;
+            margin-right: 10px;
+            margin-left: 20px;
+        }
+
+        .sezione2_parte2 > h3 {
+margin-bottom: 20px;
+        }
+
+        .sezione3 {
+         height:100%
+        }
+
+        .riquadro_grande3 {
+            width: 80vw;
+            margin: auto;
+        }
+
+.articolo {
+            width: 25vw;
+            display: inline-block;
+            border: 1px solid black;
+            background-color: white;
+        }
+
+
+.articolo > .immagini {
+    display: block;
+}
+
+.articolo > hr {
+    width: 300px;
+    display: inline-block;
+}
+.blue {
+    background-color: turquoise;
+}
+
+.riquadro_grande4 {
+    width: 80vw;
+    margin: auto;
+}
