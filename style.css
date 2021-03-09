@@ -32,15 +32,17 @@
     margin-left: 20px;
 }
 
+.inline_block {
+display: inline-block;
+}
+
 .globo {
     height: 16px;
-    display: inline-block;
     vertical-align: text-top;
 }
 
 .verticalLine {
     border-left: 1px solid grey;
-    display: inline-block;
   }
 
   .dimensioni {
@@ -60,7 +62,6 @@
 }
 
 .riquadro {
-    display: inline-block;
     padding: 8px;
     border-radius: 5px;
     border: 1px solid rgb(243, 103, 52);
@@ -107,7 +108,6 @@ p1 {
     padding-bottom: 20px;
     margin-top: 30px;
     margin-bottom: 30px;
-    display: inline-block;
 }
 
 .piccolo {
@@ -146,7 +146,6 @@ p1 {
 
 .riquadro_grande2{
     width: 80vw;
-    margin: auto;
     position: relative;
 }
 
@@ -225,7 +224,6 @@ background-color: white;
 
 .articolo {
             width: 22vw;
-            display: inline-block;
             background-color: white;
         }
 
@@ -240,7 +238,6 @@ background-color: white;
 
 .articolo > hr {
     width: 300px;
-    display: inline-block;
 }
 .blue {
     background-color: rgb(35, 173, 185);
@@ -273,7 +270,6 @@ background-color: white;
 .quadrato {
     width: 17vw;
     border: 1px solid white;
-    display: inline-block;
     padding-bottom: 20px;
     padding-top: 20px;
     color: white;
@@ -301,43 +297,42 @@ background-color: white;
     padding-top: 8vh;
 }
 
-.sezione4_riquadro1 > p {
+.sezione5_riquadro1 > p {
     padding-bottom: -10px;
 }
 
-.sezione4_riquadro1 > h1 {
+.sezione5_riquadro1 > h1 {
     font-size: 40px;
 }
 
-.sezione4_riquadro1 {
+.sezione5_riquadro1 {
     width: 10vw;
-    display: inline-block;
 }
 
-.sezione4_riquadro2 {
+.sezione5_riquadro2 {
     width: 39vw;
     padding-top: 1vh;
 }
 
-.sezione4_riquadro2::after {
+.sezione5_riquadro2::after {
 content: "";
 display: table;
-box-sizing: border-box;
+clear: both;
 }
 
-.sezione4_scritte1 {
+.sezione5_scritte1 {
     height: 100%%;
     width: 100%;
     position: relative;
     transform: translate(0, 50%);
 }
 
-.sezione4_scritte2 {
+.sezione5_scritte2 {
     height: 100%;
     width: 100%;
 }
 
-.sezione4_scritte3 {
+.sezione5_scritte3 {
    height: 70%;
    width: 100%;
    position: relative;
@@ -352,11 +347,10 @@ box-sizing: border-box;
     margin: 8px;
 }
 
-
 .riquadro_grande5::after{
     content: "";
     display: table;
-    box-sizing: border-box;
+    clear: both;;
 }
 
 .riquadro_grande6 {
@@ -390,7 +384,6 @@ box-sizing: border-box;
 
 .riquadro3 {
     margin-top: 10px;
-    display: inline-block;
     padding: 8px;
     border-radius: 5px;
     background-color: white;
@@ -408,14 +401,12 @@ box-sizing: border-box;
 }
 .p3 {
     color: white;
-    display: inline-block;
     margin: 10px;
     margin-top: 80px;
 }
 
 .p4 {
     color: white;
-    display: inline-block;
     margin-right: 10px;
     font-weight: bold;
 }
