@@ -11,7 +11,6 @@
 
 .larghezza_definita {
    width: 80vw;
-   margin: auto;
    padding-top: 20px;
    padding-bottom: 20px;
 }
@@ -20,10 +19,13 @@
     margin-top: -10px;
 }
 
+.auto {
+    margin: auto;
+}
+
 .left {
     float: left;
     padding-top: 10px;
-    margin: auto;
 }
 .none {
     border: none;
@@ -75,9 +77,6 @@
     clear: both;
 }
 
-
-
-
  .prima_sezione {
     background-image: url("img/jumbotron.png");
     height: 87vh;
@@ -93,13 +92,14 @@
  padding-top: 20px;
 }
 
-
 p1 {
     padding-top: 20px;
 }
+
 .p2 {
     padding-top: 5px;
 }
+
 .riquadro2 {
     padding-left: 30px;
     padding-right: 30px;
@@ -128,7 +128,6 @@ p1 {
 
 
 .sezione2 {
-    margin: auto;
     width: 50vw;
 }
 
@@ -136,9 +135,13 @@ p1 {
     text-align: center;
 }
     
+.left_right {
+    margin-left: 8%;
+    margin-right: 7%;
+}
+
 .cubo {
     height: 200px;
-    margin: auto;
 }
 
 .riquadro_grande2{
@@ -146,13 +149,13 @@ p1 {
     margin: auto;
     position: relative;
 }
+
 .bianco {
 background-color: white;
     }
 
 .immagini {
         height: 100px;
-        margin: auto;
     }
 
 .sezione2_parte1 {
@@ -198,9 +201,11 @@ background-color: white;
             margin-right: 10px;
             margin-left: 20px;
         }
+
 .alignleft {
     text-align: left;
 }
+
 .riquadro_grande3 {
             width: 70vw;
             margin: auto;
@@ -246,6 +251,13 @@ background-color: white;
     width: 80vw;
     margin: auto;
 }
+
+.riquadro_grande4::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .riquadro_grande4 > h1{
     font-size: 31px;
     color: white;
@@ -264,7 +276,6 @@ background-color: white;
     display: inline-block;
     padding-bottom: 20px;
     padding-top: 20px;
-    margin-left: -4px;
     color: white;
 }
 
@@ -298,7 +309,6 @@ background-color: white;
     font-size: 40px;
 }
 
-
 .sezione4_riquadro1 {
     width: 10vw;
     display: inline-block;
@@ -326,6 +336,7 @@ box-sizing: border-box;
     height: 100%;
     width: 100%;
 }
+
 .sezione4_scritte3 {
    height: 70%;
    width: 100%;
@@ -351,7 +362,6 @@ box-sizing: border-box;
 .riquadro_grande6 {
     width: 70vw;
     padding-top: 30px;
-    margin: auto;
 }
 
 .riquadro_grande6 > img {
