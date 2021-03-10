@@ -212,6 +212,13 @@ background-color: white;
             padding-top: 10vh;
         }
 
+        .riquadro_grande3 {
+            content: "";
+         display: table;
+         clear: both;
+        }
+
+
         .sezione3 {
             padding-bottom: 10vh;
         }
