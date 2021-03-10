@@ -32,6 +32,10 @@
     margin-left: 20px;
 }
 
+.padding {
+padding: 10px;
+}
+
 .inline_block {
 display: inline-block;
 }
@@ -91,14 +95,6 @@ display: inline-block;
 .riquadro_grande > h1 {
  font-size: 50px;
  padding-top: 20px;
-}
-
-p1 {
-    padding-top: 20px;
-}
-
-.p2 {
-    padding-top: 5px;
 }
 
 .riquadro2 {
@@ -176,6 +172,11 @@ background-color: white;
 .p2 {
         margin-top: 5px;
     }
+
+.p5 {
+    margin-top: 10px;
+}
+
 
 .sezione2_parte2 > h3 {
         margin-bottom: 20px;
@@ -321,29 +322,45 @@ clear: both;
 }
 
 .sezione5_scritte1 {
-    height: 100%%;
     width: 100%;
     position: relative;
     transform: translate(0, 50%);
+    object-fit: contain;
 }
 
 .sezione5_scritte2 {
-    height: 100%;
     width: 100%;
+    object-fit: contain;
+    position: relative;
+    transform: translate(0, -10%);
 }
 
 .sezione5_scritte3 {
-   height: 70%;
+    height: 70%;
    width: 100%;
+   object-fit: contain;
    position: relative;
-    transform: translate(0, 20%);
+    transform: translate(0, 10%);
 }
+
+.sezione5_scritte4 {
+   width: 100%;
+   object-fit: contain;
+   position: relative;
+    transform: translate(0, %);
+}
+
+.sezione5_scritte5 {
+    width: 100%;
+    object-fit: contain;
+    position: relative;
+     transform: translate(0, -20%);
+ }
 
 .sottoriquadro {
     width: 21%;
     height: 5vh;
     float: left;
-    position: relative;
     margin: 8px;
 }
 
